@@ -604,20 +604,14 @@ footer a:hover::after {
         line-height: 1.3;
     }
 
+    .pill {
+        font-size: 0.85rem;
+    }
+
     .section-title, section:last-of-type h2 {
         font-size: 2em;
         font-weight: 800;
         text-align: center;
         margin-bottom: 5rem;
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    header::before, .features::before, .features::after {
-        animation: none;
-    }
-    
-    .benefits-cards:hover, .pill:hover {
-        transform: none;
     }
 }
