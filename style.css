@@ -36,6 +36,15 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) var(--dark-bg-alt);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
